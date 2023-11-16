@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<title>JERAZIN Medical tourism</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <style>
+body {font-family: "Roboto", sans-serif}
+.w3-bar-block .w3-bar-item{padding:16px;font-weight:bold}
+    
+    table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+    
+</style>
+  
+  
+<body>
+
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar">
+  <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="https://jerazin.com/"><img src="https://github.com/https-github-com-sookjai-poolvilla/SOOK-JAI-APT/blob/master/48dc7b3a87e5a.png?raw=true" style="width:100%;"></a>
+  <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i class="fa fa-remove"></i></a>
+  <a class="w3-bar-item w3-button w3-teal" href="https://jerazin.com">Home</a>
+ 
+   <a class="w3-bar-item w3-button" href=""></a>
+  <a class="w3-bar-item w3-button" ></a>
+  <a class="w3-bar-item w3-button" ></a>
+  <a class="w3-bar-item w3-button" href=""></a>
+    <a class="w3-bar-item w3-button" href=""></a>
+  <a class="w3-bar-item w3-button" href=""></a>
+  <a class="w3-bar-item w3-button" href="" ></a>
+  
+  
+  </div>
+</nav>
+
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div class="w3-main" style="margin-left:250px;">
+
+<div id="myTop" class="w3-container w3-top w3-theme w3-large">
+  <p><i class="fa fa-bars w3-button w3-teal w3-hide-large w3-xlarge" onclick="w3_open()"></i>
+  <span id="myIntro" class="w3-hide">JERAZIN Medical tourism</span></p>
+</div>
+
+<header class="w3-container w3-theme" style="padding:64px 32px">
+  <h1 class="w3-xxxlarge">JERAZIN Medical tourism</h1>
+</header>
+
+<div class="w3-container" style="padding:32px">
+    <div id="article" >
+      <h2>Medical tourism</h2>
+<p> 
+Medical tourism refers to people traveling abroad to obtain medical treatment. <br>
+In the past, this usually referred to those who traveled from less-developed countries to major medical centers in highly developed countries for treatment unavailable at home.<br>
+However, in recent years it may equally refer to those from developed countries who travel to developing countries for lower-priced medical treatments. <br>
+With differences between the medical agencies, such as the Food and Drug Administration (FDA) or the European Medicines Agency (EMA), etc.,<br>
+which decide whether a drug is approved in their country or region, or not, the motivation may be also for medical services unavailable or non-licensed in the home country.<br>
+Medical tourism most often is for surgeries (cosmetic or otherwise) or similar treatments, though people also travel for dental tourism or fertility tourism.<br>
+People with rare conditions may travel to countries where the treatment is better understood. <br>
+However, almost all types of health care are available, including psychiatry, alternative medicine, convalescent care, and even burial services.<br>
+Health tourism is a wider term for travel that focuses on medical treatments and the use of healthcare services. <br>
+It covers a wide field of health-oriented tourism ranging from preventive and health-conductive treatment to rehabilitational and curative forms of travel. <br>
+Wellness tourism is a related field.
+  
+          </p>
+
+    <p>  
+
+      <img src="?raw=true" width="80%" alt="" title="">
+     
+    
+</div>
+</div>
+
+<footer class="w3-container w3-theme" style="padding:32px">
+<p> E-mail: sookjai@jerazin.com / line id: sookjaiapt. Website: jerazin.com<br>HP : 6697-006-2524</p>
+</footer>
+
+</div>
+
+<script>
+// Open and close the sidebar on medium and small screens
+function w3_open() {
+document.getElementById("mySidebar").style.display = "block";
+document.getElementById("myOverlay").style.display = "block";
+}
+function w3_close() {
+document.getElementById("mySidebar").style.display = "none";
+document.getElementById("myOverlay").style.display = "none";
+}
+
+// Change style of top container on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("myTop").classList.add("w3-card-4", "w3-animate-opacity");
+    document.getElementById("myIntro").classList.add("w3-show-inline-block");
+} else {
+    document.getElementById("myIntro").classList.remove("w3-show-inline-block");
+    document.getElementById("myTop").classList.remove("w3-card-4", "w3-animate-opacity");
+}
+}
+
+// Accordions
+function myAccordion(id) {
+var x = document.getElementById(id);
+if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-theme";
+} else {
+    x.className = x.className.replace("w3-show", "");
+    x.previousElementSibling.className =
+    x.previousElementSibling.className.replace(" w3-theme", "");
+}
+}
+</script>
+
+</body>
+</html>
